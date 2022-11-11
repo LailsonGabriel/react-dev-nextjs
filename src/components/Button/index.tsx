@@ -1,10 +1,11 @@
 import React from "react";
 import { IButton } from "./interface";
+import { ButtonComponent } from "./styles";
 
 export const Button = ({ onClick, text }: IButton) => {
   return (
-    <button type="button" onClick={onClick}>
+    <ButtonComponent type="button" onClick={onClick}>
       {text}
-    </button>
+    </ButtonComponent>
   );
 };

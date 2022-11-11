@@ -1,12 +1,12 @@
 import React from "react";
 import { Button } from "../Button";
-import { HeaderContainer } from "./styles";
+import { HeaderContainer, Title } from "./styles";
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <h4>Crie seu form</h4>
-      <Button text="criar form" />
+      <Title>Crie seu formulário</Title>
+      <Button text="novo" />
     </HeaderContainer>
   );
 };
