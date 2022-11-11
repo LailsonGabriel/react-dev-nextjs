@@ -1,13 +1,13 @@
 import React from "react";
 import { Button } from "../Button";
+import { HeaderContainer } from "./styles";
 
-const Header = ({ children }: { children: React.ReactNode }) => {
+const Header = () => {
   return (
-    <header>
+    <HeaderContainer>
       <h4>Crie seu form</h4>
       <Button text="criar form" />
-      {children}
-    </header>
+    </HeaderContainer>
   );
 };
 
